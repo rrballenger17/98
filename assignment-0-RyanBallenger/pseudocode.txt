@@ -1,0 +1,43 @@
+
+Pseudocode
+
+1. DEPTH FIRST
+
+static var done [node];
+
+function depthFirst(node input){
+	var neighbors = getEdges();
+
+	for neighbor in neighbors{
+		if(!done.contains(neighbor)){
+			doSomething(neighbor);
+			done.append(neighbor);
+			depthFirst(neighbor);
+		}
+	}
+
+}
+
+
+2. BREADTH FIRST 
+
+static var done [node];
+
+function breadthFirst(node input){
+	var neighbors = getEdges();
+
+	var newNodes[node] = new Array[node];
+
+	for neighbor in neighbors{
+		if(!done.contains(neighbor)){
+			doSomething(neighbor);
+			done.append(neighbor);
+			newNodes.append(neighbor);
+		}
+	}
+
+	for newNode in newNodes{
+		breadthFirst(newNode);
+	}
+
+}

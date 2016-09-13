@@ -1,0 +1,55 @@
+
+Short Answer Questions
+
+1.
+Error: An issue that the compiler doesn't notice and that terminates the program.
+
+Exception: A less serious issue that is caught and handled by the program, such as a file not being found.
+
+RuntimeException: An uncaught, preventable exception that the compiler doesn't detect and occurs at runtime.
+
+2.
+Static means only one exists for the class whereas many independent instances can exist.
+
+
+3. 
+• Processor Registers.
+• L1 Cache.
+• L2 Cache.
+• RAM.
+• SSD Disk Drive.
+• Magnetic Disk Drive
+• Tape Storage.
+
+4.
+(a) malloc - allocates memory
+(b) free - releases allocated memory
+(c) memcpy - copy memory from source to destination
+(d) memset - set memory to a repeated constant value
+
+5. The final keyword for a field means it cannot be changed after it is initialized. Final for a method means it cannot be overriden.
+
+6. Overloading is providing mulitple class definitions that are selected based on the argument list provided. Overriding occurs in a subclass when a method is redefined. 
+
+7. A compiler converts the source code to machine readable code along with doing error checking. The linker connects classes within a program when it's compiled.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
